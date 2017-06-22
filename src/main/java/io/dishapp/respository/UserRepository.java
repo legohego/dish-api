@@ -1,5 +1,5 @@
 package io.dishapp.respository;
 
-public class CustomerRepository {
+public interface UserRepository {
 
 }

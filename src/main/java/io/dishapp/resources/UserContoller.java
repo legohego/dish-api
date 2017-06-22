@@ -1,5 +1,5 @@
 package io.dishapp.resources;
 
-public class CustomerContoller {
+public class UserContoller {
 
 }

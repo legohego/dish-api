@@ -26,7 +26,7 @@ public class DishController {
 	
 	@RequestMapping(method=RequestMethod.GET, value = "/dish/{filter}/{location}/{dish}")
 	public Dish getFilteredDishes(@PathVariable String filter, @PathVariable String location, @PathVariable String dish) {
-		return null; // dishService.getFilteredDishes(filter, location, dish);
+		return null;
 	}
 	
 	@RequestMapping(method=RequestMethod.GET, value = "/dish/{id}")
@@ -35,6 +35,6 @@ public class DishController {
 	}
 	@RequestMapping(method=RequestMethod.POST, value = "/dish/")
 	public void setDish(@RequestBody Dish dish){
-		dishService.addDish(dish);
+		dishService.createDish(dish);
 	}
 }
